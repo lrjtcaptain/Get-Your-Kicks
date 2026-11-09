@@ -1,0 +1,7 @@
+(function(root){
+  function distance(a,b){const r=Math.PI/180,x=(b.lat-a.lat)*r,y=(b.lon-a.lon)*r,h=Math.sin(x/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin(y/2)**2;return 6371000*2*Math.atan2(Math.sqrt(h),Math.sqrt(Math.max(0,1-h)))}
+  function valid(p,now){return p&&Number.isFinite(p.lat)&&Math.abs(p.lat)<=90&&Number.isFinite(p.lon)&&Math.abs(p.lon)<=180&&Number.isFinite(p.accuracy)&&p.accuracy>=0&&p.accuracy<=65&&Number.isFinite(p.time)&&now-p.time<=15000&&p.time<=now+2000}
+  function create(){let candidates=new Map(),previous=null;return {reset(){candidates.clear();previous=null},update(p,pins,visited,now=Date.now()){if(!valid(p,now))return {accepted:false,hits:[]};if(previous&&p.time<=previous.time)return {accepted:false,hits:[]};if(previous&&(p.time-previous.time>60000||distance(previous,p)/((p.time-previous.time)/1000)>85))candidates.clear();previous=p;const hits=[];for(const pin of pins){if(visited.includes(pin.id))continue;if(!Number.isFinite(pin.lat)||!Number.isFinite(pin.lon)||!['source-verified','user-confirmed'].includes(pin.verification))continue;let radius=150;if(distance(p,pin)+p.accuracy+(Number.isFinite(pin.accuracy)?pin.accuracy:0)<=radius){let first=candidates.get(pin.id);if(!first)candidates.set(pin.id,p.time);else if(p.time-first>=3000){hits.push(pin.id);candidates.delete(pin.id)}}else candidates.delete(pin.id)}return {accepted:true,hits}}}}
+  const api={distance,valid,create};if(typeof module==='object'&&module.exports)module.exports=api;else root.KicksGPS=api;
+})(typeof globalThis!=='undefined'?globalThis:this);
+
