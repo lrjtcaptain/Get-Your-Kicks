@@ -278,5 +278,35 @@
     "brand": "Blaze Pizza",
     "source": "https://a.storyblok.com/f/318392/870x240/293145d194/logo.svg",
     "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Naf Naf Grill",
+    "source": "https://www.nafnafgrill.com/wp-content/themes/nafnaf2024/images/logo.svg",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Cinnabon",
+    "source": "https://www.cinnabon.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fzqt8tllj2cy0%2F14K7cuiTkI5288ZMsjDfvK%2Ff258d3fc340348b1bfb9df8e4005e919%2Fcin-brand-logo-desktop.png&w=1200&q=75",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Hunt Brothers Pizza",
+    "source": "https://df7ogaw9x1jql.cloudfront.net/wp-content/uploads/2022/05/10131527/hbp-logo-stroke-300x175.png",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Orange Julius",
+    "source": "https://dairyqueen-prod.dotcdn.io/dA/88067b48d8/fileAsset/OJL_Home_Page_Logo.png",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Blimpie",
+    "source": "https://www.blimpie.com/assets/img/logo.png",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Country Pride",
+    "source": "https://cdn.ta-petro.com/media/utmdaxvf/logo_countrypride_6c_pos-cmyk.svg",
+    "checkedAt": "2026-11-12"
   }
 ]

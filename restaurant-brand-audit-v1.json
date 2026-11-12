@@ -1,0 +1,182 @@
+{
+  "checkedAt": "2026-11-12",
+  "scope": "Named restaurants at operator-listed travel stops on the I-88/I-80 route; not an exhaustive regional restaurant inventory.",
+  "hosts": [
+    {
+      "id": "pilot-davenport",
+      "source": "https://locations.pilotflyingj.com/us/ia/davenport/8200-northwest-blvd",
+      "restaurantIds": [
+        "osm-food-6582656807"
+      ],
+      "status": "named_restaurants_reconciled"
+    },
+    {
+      "id": "pilot-brooklyn",
+      "source": "https://locations.pilotflyingj.com/us/ia/brooklyn/4126-ia-21",
+      "restaurantIds": [
+        "osm-food-947850830"
+      ],
+      "status": "named_restaurants_reconciled"
+    },
+    {
+      "id": "pilot-walcott",
+      "source": "https://locations.pilotflyingj.com/us/ia/walcott/3500-n-plainview-rd",
+      "restaurantIds": [
+        "pilot-walcott-restaurant-cinnabon"
+      ],
+      "status": "named_restaurants_reconciled"
+    },
+    {
+      "id": "pilot-altoona",
+      "source": "https://locations.pilotflyingj.com/us/ia/altoona/3231-adventureland-dr",
+      "restaurantIds": [
+        "pilot-altoona-restaurant-cinnabon"
+      ],
+      "status": "named_restaurants_reconciled"
+    },
+    {
+      "id": "pilot-council-bluffs",
+      "source": "https://locations.pilotflyingj.com/us/ia/council-bluffs/2647-s-24th-st",
+      "restaurantIds": [
+        "pilot-council-bluffs-restaurant-arbys"
+      ],
+      "status": "named_restaurants_reconciled"
+    },
+    {
+      "id": "loves-754",
+      "source": "https://www.loves.com/locations/il/rochelle/loves-travel-stop-rochelle-754",
+      "restaurantIds": [
+        "loves-754-restaurant-hardees"
+      ],
+      "status": "named_restaurants_reconciled"
+    },
+    {
+      "id": "loves-476",
+      "source": "https://www.loves.com/locations/ia/davenport/loves-travel-stop-davenport-476",
+      "restaurantIds": [
+        "osm-food-6582656808"
+      ],
+      "status": "named_restaurants_reconciled"
+    },
+    {
+      "id": "loves-361",
+      "source": "https://www.loves.com/locations/ia/newton/loves-travel-stop-newton-361",
+      "restaurantIds": [
+        "osm-food-2091754042",
+        "osm-food-2091754043"
+      ],
+      "status": "named_restaurants_reconciled"
+    },
+    {
+      "id": "loves-411",
+      "source": "https://www.loves.com/locations/ia/clive/loves-travel-stop-clive-411",
+      "restaurantIds": [
+        "osm-food-1219348099"
+      ],
+      "status": "named_restaurants_reconciled"
+    },
+    {
+      "id": "loves-426",
+      "source": "https://www.loves.com/locations/ia/shelby/loves-travel-stop-shelby-426",
+      "restaurantIds": [
+        "osm-food-5842316266",
+        "osm-food-5842299301"
+      ],
+      "status": "named_restaurants_reconciled"
+    },
+    {
+      "id": "loves-1044",
+      "source": "https://www.loves.com/locations/il/rock-falls/loves-travel-stop-rock-falls-1044",
+      "restaurantIds": [
+        "godfathers-loves-rock-falls-1044",
+        "loves-1044-restaurant-naf-naf-grill"
+      ],
+      "status": "named_restaurants_reconciled"
+    },
+    {
+      "id": "ta-brooklyn",
+      "source": "https://www.ta-petro.com/location/ia/ta-brooklyn/",
+      "restaurantIds": [
+        "ta-brooklyn-restaurant-country-pride",
+        "ta-brooklyn-restaurant-hunt-brothers-pizza"
+      ],
+      "status": "named_restaurants_reconciled"
+    },
+    {
+      "id": "rr-dixon",
+      "source": "https://www.roadrangerusa.com/node/241",
+      "restaurantIds": [
+        "rr-dixon-food-subway",
+        "rr-dixon-food-dan-s-pizza",
+        "rr-dixon-food-ranger-kitchen"
+      ],
+      "status": "named_restaurants_reconciled"
+    },
+    {
+      "id": "hh-iowa80-truckstop",
+      "source": "https://iowa80truckstop.com/eat/",
+      "restaurantIds": [
+        "osm-food-7273698341",
+        "osm-food-11060745485",
+        "hh-iowa80-truckstop-restaurant-pizza-hut",
+        "hh-iowa80-truckstop-restaurant-taco-bell",
+        "hh-iowa80-truckstop-restaurant-dairy-queen",
+        "hh-iowa80-truckstop-restaurant-orange-julius",
+        "hh-iowa80-truckstop-restaurant-starbucks",
+        "hh-iowa80-truckstop-restaurant-blimpie"
+      ],
+      "status": "named_restaurants_reconciled"
+    },
+    {
+      "id": "pilot-urbandale",
+      "source": "https://locations.pilotflyingj.com/us/ia/urbandale/11957-douglas-avenue",
+      "status": "operator_page_checked_no_named_restaurant_section"
+    },
+    {
+      "id": "pilot-avoca",
+      "source": "https://locations.pilotflyingj.com/us/ia/avoca/7005-n-chestnut-st",
+      "status": "operator_page_checked_no_named_restaurant_section"
+    },
+    {
+      "id": "one9-atalissa",
+      "source": "https://pilotcompany.com/locations/us/ia/atalissa/2086-atalissa-rd",
+      "status": "operator_page_checked_no_named_restaurant_section"
+    },
+    {
+      "id": "ta-council-bluffs",
+      "source": "https://www.ta-petro.com/location/ia/ta-council-bluffs/",
+      "status": "operator_page_checked_no_named_restaurant_section"
+    }
+  ],
+  "added": [
+    "pilot-walcott-restaurant-cinnabon",
+    "pilot-altoona-restaurant-cinnabon",
+    "pilot-council-bluffs-restaurant-arbys",
+    "loves-754-restaurant-hardees",
+    "loves-1044-restaurant-naf-naf-grill",
+    "ta-brooklyn-restaurant-country-pride",
+    "ta-brooklyn-restaurant-hunt-brothers-pizza",
+    "hh-iowa80-truckstop-restaurant-pizza-hut",
+    "hh-iowa80-truckstop-restaurant-taco-bell",
+    "hh-iowa80-truckstop-restaurant-dairy-queen",
+    "hh-iowa80-truckstop-restaurant-orange-julius",
+    "hh-iowa80-truckstop-restaurant-starbucks",
+    "hh-iowa80-truckstop-restaurant-blimpie"
+  ],
+  "linkedExisting": [
+    "osm-food-6582656807",
+    "osm-food-947850830",
+    "osm-food-6582656808",
+    "osm-food-2091754042",
+    "osm-food-2091754043",
+    "osm-food-1219348099",
+    "osm-food-5842316266",
+    "osm-food-5842299301",
+    "godfathers-loves-rock-falls-1044",
+    "rr-dixon-food-subway",
+    "rr-dixon-food-dan-s-pizza",
+    "rr-dixon-food-ranger-kitchen",
+    "osm-food-7273698341",
+    "osm-food-11060745485"
+  ]
+}
