@@ -3,7 +3,7 @@
 const KEY='kicks-trip-settings',routes=['start.html','hawkeye.html'];
 const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'{}')||{}}catch{return {}}};
 const save=patch=>{const settings={...read(),...patch};try{localStorage.setItem(KEY,JSON.stringify(settings))}catch{}return settings};
-const routeUrl=route=>{const url=new URL(route,location.href);url.searchParams.set('build','nearby12');return url.href};
+const routeUrl=route=>{const url=new URL(route,location.href);url.searchParams.set('build','logos13');return url.href};
 const current=()=>document.querySelector('.hawkeye-header')?'hawkeye.html':'start.html';
 function switchTo(route){if(!routes.includes(route))return;save({trip:route});if(route!==current())location.assign(routeUrl(route));}
 window.TripNavigation={read,save,current,switchTo};
