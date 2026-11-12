@@ -105,6 +105,11 @@
     "checkedAt": "2026-11-12"
   },
   {
+    "brand": "Jersey Mike's Subs",
+    "source": "https://www.jerseymikes.com/_nuxt/master-logo.HPKhujUP.svg",
+    "checkedAt": "2026-11-12"
+  },
+  {
     "brand": "Firehouse Subs",
     "source": "https://www.firehousesubs.com/favicon.ico",
     "checkedAt": "2026-11-12"
@@ -207,6 +212,71 @@
   {
     "brand": "Iowa 80",
     "source": "https://www.iowa80group.com/wp-content/themes/iowa80new/images/i80ts_logo.jpg",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Sbarro",
+    "source": "https://sbarro.com/wp-content/themes/foundationpress/assets/images/icons/apple-icon-76x76.png?v=2",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Burger King",
+    "source": "https://www.bk.com/favicon.ico",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "IHOP",
+    "source": "https://www.ihop.com/-/media/ihop/images/navigation/logo.svg?h=74&w=74&rev=f68a8a69e19a4e7fa8ec9fb6d4218751",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Applebee's Neighborhood Grill & Bar",
+    "source": "https://www.applebees.com/-/media/applebees2/svg/logos/logo__full-logo__color.svg?iar=0&rev=4d98749fb5f94f139a4f661888f6ba64&hash=80C7BDC3B718C92B7F1E5E4F2E7B60FE",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Qdoba",
+    "source": "https://www.qdoba.com/public/assets/images/logo-white.svg",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Krispy Kreme",
+    "source": "https://cdn.sanity.io/images/9tlw6prn/production/f46105b8143448db799e96bda8fc1c5fba8c68c5-366x126.svg?auto=format",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Smoothie King",
+    "source": "https://content.smoothieking.com/wp-content/uploads/2026/04/Smoothie-King-Logo-Horizontal.svg",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Long John Silver's",
+    "source": "https://storyblok.pleinaircdn.com/f/261627/254x150/77a709a753/logo-stacked.svg",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Pizza Ranch",
+    "source": "https://pizzaranch.com/careers-assets/pr-logo-icon-light.svg",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Charleys Philly Steaks",
+    "source": "https://www.charleys.com/wp-content/uploads/2021/08/charleys-logo.svg",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "MOD Pizza",
+    "source": "https://modpizza.com/nitropack_static/PcYrRCpGOqYGuuuJnjXRulqHDScUwpeM/assets/images/optimized/rev-a345840/modpizza.com/wp-content/themes/modpizza/dist/images/favicon.ico",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Jamba",
+    "source": "https://images.ctfassets.net/zqt8tllj2cy0/3vXQknBo5wVc0QDWn1zKor/4f5081a763c3868ee32818a66f232006/Jamba-Nav-Logo-Desktop.svg",
+    "checkedAt": "2026-11-12"
+  },
+  {
+    "brand": "Blaze Pizza",
+    "source": "https://a.storyblok.com/f/318392/870x240/293145d194/logo.svg",
     "checkedAt": "2026-11-12"
   }
 ]
